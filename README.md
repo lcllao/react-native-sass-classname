@@ -35,6 +35,11 @@ By default we already have the options below set, so, it is not required to set 
 - extension: ["css", "scss", "sass"]
 - prefixExtension: "native"
 
+## Options
+
+### noNativePrefix
+If you want to make no defference between native css file and web css file ,make this option to be `true`,then the plugin will find the file path like `Application.scss` not `Application.native.scss`
+
 ## How would look like my app?
 As it has been said, creating aliases engineers will be able to have a DIV (web) represented by a VIEW (native):
 ```
